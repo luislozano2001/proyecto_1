@@ -1,0 +1,30 @@
+body{
+    background: #102;
+}
+.listado{
+    display: flex;
+    justify-content: space-evenly;
+    max-width:1000px ;
+    background-color: aqua;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+}
+.listado li{
+    list-style: none;
+}
+.listado li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 19px;
+}
+.listado li a:hover{
+    border-bottom: 5px solid blueviolet;
+}
+@media screen and (max-width:600px) {
+    .listado li a{
+        
+        font-size: 15px;
+    }
+}
